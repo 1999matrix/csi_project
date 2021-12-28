@@ -4,34 +4,39 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
+        <title>University of London</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+        
         <link rel="stylesheet" href="style.css">
-        <link rel="icon" type="x-icon" href="favicon-16x16.png">
+        <link rel="icon" type="x-icon" href="images/favicon-16x16.png">
+        <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+       
     </head>
     <body>
         <header class="text-gray-400 bg-gray-900 body-font">
             <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
               <a class="flex title-font font-medium items-center text-white mb-4 md:mb-0">
-               
-                <img src="imageonline-co-whitebackgroundremoved.png" alt="logo" id="logo">
+               <div class="address">
+                <img src="images/imageonline-co-whitebackgroundremoved.png" alt="logo" id="logo">
+                <div>
                 <span class="ml-3 text-xl">UNIVERSITY OF LONDON</span>
+                </div>
+                </div>
               </a>
+              
               <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
                 <a class="mr-5 hover:text-white" href="index.html">HOME</a>
                 <a class="mr-5 hover:text-white" href="about.html">ABOUT</a>
                 <a class="mr-5 hover:text-white" href="academics.html">ACADEMICS</a>
-                <a class="mr-5 hover:text-white" href="academics.html">DEPARTMENTS</a>
+                <a class="mr-5 hover:text-white" href="departments.html">DEPARTMENTS</a>
                 <a class="mr-5 hover:text-white" href="gallery.html">GALLERY</a>
               </nav>
               
             </div>
            </header> 
-
-
-           <div class="slideshow-container">
+            <div class="slideshow-container">
 
             <!-- Full-width images with number and caption text -->
             <div class="mySlides fade">
@@ -42,26 +47,22 @@
           
             <div class="mySlides fade">
               <div class="numbertext">2 / 3</div>
-              <img src="images/img1.jpg" style="width:100%">
+              <img src="images/img2.jpg" style="width:100%">
               <div class="text">Caption Two</div>
             </div>
           
             <div class="mySlides fade">
               <div class="numbertext">3 / 3</div>
-              <img src="images/img1.jpg" style="width:100%">
+              <img src="images/img3.jpg" style="width:100%">
               <div class="text">Caption Three</div>
             </div>
 
             <div class="mySlides fade">
               <div class="numbertext">4 / 4</div>
-              <img src="images/img1.jpg" style="width:100%">
+              <img src="images/img4.jpg" style="width:100%">
               <div class="text">Caption Four</div>
             </div>
-
-            
-           
-            
-            <!-- Next and previous buttons -->
+         <!-- Next and previous buttons -->
             <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
             <a class="next" onclick="plusSlides(1)">&#10095;</a>
           </div>
@@ -160,7 +161,7 @@
         </div>
         <div class="flex flex-wrap sm:flex-row flex-col py-6 mb-12">
           <h1 class="sm:w-2/5 text-gray-900 font-medium title-font text-2xl mb-2 sm:mb-0">Notable Alumni</h1>
-          <!-- <p class="sm:w-3/5 leading-relaxed text-base sm:pl-10 pl-0">Street art subway tile salvia four dollar toast bitters selfies quinoa yuccie synth meditation iPhone intelligentsia prism tofu. Viral gochujang bitters dreamcatcher.</p> -->
+          
         </div>
       </div>
       <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
@@ -241,9 +242,6 @@
               <a class="text-gray-600 hover:text-gray-800">Examinations</a>
             </li>
             <li>
-              <a class="text-gray-600 hover:text-gray-800">Third Link</a>
-            </li>
-            <li>
               <a class="text-gray-600 hover:text-gray-800">How to apply</a>
             </li>
           </nav>
@@ -266,28 +264,40 @@
             </li>
           </nav>
         </div>
+        
+        <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+          <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">Other Links</h2>
+          <nav class="list-none mb-10">
+            <li>
+              <a class="text-gray-600 hover:text-gray-800" href="https://www.facebook.com/LondonU/" target="_blank">Facebook</a>
+            </li>
+            <li>
+              <a class="text-gray-600 hover:text-gray-800" href="https://twitter.com/King_billuuuu" target="_blank"><i class="fa fa-twitter fa-stack-1x"></i>Twitter</a>
+            </li>
+            <li>
+              <a class="text-gray-600 hover:text-gray-800" href="https://www.youtube.com/channel/UCdcOr9UlR_vZglIFntHnVnQ" target="_blank">Youtube</a>
+            </li>
+            <li>
+              <a class="text-gray-600 hover:text-gray-800" href="https://en.wikipedia.org/wiki/University_of_London" target="_blank">collge.info</a>
+            </li>
+          </nav>
+        
+        </div>
+      
       </div>
     </div>
     <div class="bg-gray-100">
       <div class="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
         <p class="text-gray-500 text-sm text-center sm:text-left">&#169 2021 UNIVERSITY OF LONDON —
-          <a href="https://twitter.com/knyttneve" rel="noopener noreferrer" class="text-gray-600 ml-1" target="_blank">@knyttneve</a>
+          <a href="https://twitter.com/knyttneve" rel="noopener noreferrer" class="text-gray-600 ml-1" target="_blank">@shashwat</a>
         </p>
-        <span class="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
-          <a class="text-gray-500">
-            
-          </a>
-          <a class="ml-3 text-gray-500">
-            
-          </a>
-          <a class="ml-3 text-gray-500">
-            
-          </a>
-          <a class="ml-3 text-gray-500">
-            
-          </a>
-        </span>
+        
       </div>
+    </div>
+
+    
+       
+     </ul>
     </div>
   </footer>
         <script src="script.js" async defer></script>
